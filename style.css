@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./assets/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    background-color: rgb(43, 78, 123);
+    
+}
+.tituloPrincipal{
+    color: rgb(172, 172, 172);
+    padding: .3125rem;
+    font-style: italic;
+}
+.navBar ul{
+    padding: .9375rem;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(172, 172, 172);
+    font-size: 1.25rem;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+li a{
+    text-decoration: none;
+    color: rgb(172, 172, 172) ;
+}
+li a:hover{
+    color: white;
+    transform: scale(1.2);
+}
+
+#botonCarrito{
+    margin-left: 1.875rem;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    color: rgb(172, 172, 172);
+    font-size: 1.25rem;
+}
+#botonCarrito a{
+    text-decoration: none;
+    color: rgb(172, 172, 172) ;
+}
+
+#botonCarrito a:hover{
+    color: white;
+    transform: scale(1.2);
+}
+
+#botonCarrito img{
+    padding-right: .3125rem;
+}
+
+.parrafoPrincipal{
+    text-align: center;
+    font-size: 1.5625rem;
+    gap: .3125rem;
+    padding: 1.25rem;
+    color: white;
+    background-color: rgba(13, 185, 185, 0.21);
+}
+
+.contenedorImagenes{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    margin-left: 5rem;
+    margin-top: 1.875rem;
+}
+
+
+.imgInicio1 img{
+    width: 15.625rem;
+
+}
+.imgInicio2 img{
+    width: 15.625rem;
+}
+
+.imgInicio3 img{
+    width: 15.625rem;
+}
+
+.footer{
+    color: white;
+    padding: .9375rem;
+    display: flex;
+    justify-content: end;
+    gap: .625rem;
+}
+
+#contenedorAcidos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: .625rem;
+    justify-content: space-between;
+    margin-left: 6.25rem;
+}
+.producto{
+    width: 18.75rem;
+    height: 25rem;
+    justify-items: center;
+    align-content: center;
+    border: 2px solid black;
+}
+.imagenProducto img{
+    width: 10.625rem;
+    height: 12.5rem;} 
+
+.tituloProducto{
+    color: white;
+    padding: 1.25rem;
+}
+.precioProducto{
+    color: white;
+    padding: .3125rem;
+    font-size: 1.25rem;
+}
+.botonComprar{
+    padding: .5rem;
+    background-color: rgba(255, 255, 255, 0.454);
+    color: black;
+    font-size: .9375rem;
+    cursor: pointer;
+    border-color: rgba(255, 255, 255, 0.454) ;
+    border-radius: 5px;
+    margin: .3125rem;
+}
+.botonComprar:hover{
+    color: rgb(0, 81, 255);
+    background-color: rgba(255, 255, 255, 0.648);
+    transform: scale(1.2);
+}
+
+
+#contenedorProductos{
+    display: flex;
+    flex-direction: column;
+    gap: .625rem;
+}
+.productoEnCarrito{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 200px;
+    padding: 10px;
+    border: 2px solid black;
+    margin-left: 3.125rem;
+    margin-top: 1.25rem;
+    color: white;
+}
+.imagenProductoEnCarrito img{
+    width: 6.25rem;
+}
+.imagenProductoEnCarrito{
+    margin-left: 1.25rem;
+}
+.tituloProductoEnCarrito{
+    text-align: end;
+    padding: .625rem;
+    font-size: 20px;
+}
+.aumentarCantidad{
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+#finalizarCompra{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    border: 1.5px solid black;
+    width: 90%;
+    gap: 1.25rem;
+    margin: 1.25rem;
+    margin-left: 3.125rem;
+    padding: .9375rem;
+}
+
+.botonEliminar{
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
